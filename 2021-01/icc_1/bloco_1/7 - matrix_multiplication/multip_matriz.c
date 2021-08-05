@@ -30,9 +30,7 @@ int main() {
     for (int i = 0; i < row_a; i++) {
         for (int j = 0; j < column_a; j++) {
             matrix_A[i][j] = rand() % 50 - 25;     // Gera um numero aleatorio e armazena na posicao (i, j) da matriz
-            // printf("%d ", matrix_A[i][j]);
         }
-        // printf("\n");
     }
 
     // Preenchendo a matriz B   
@@ -40,9 +38,7 @@ int main() {
     for (int i = 0; i < row_b; i++) {
         for (int j = 0; j < column_b; j++) {
             matrix_B[i][j] = rand() % 50 - 25;     // Gera um numero aleatorio e armazena na posicao (i, j) da matriz
-            // printf("%d ", matrix_B[i][j]);
         }
-        // printf("\n");
     }
     
     // Matriz C
